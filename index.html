@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title> Amoeville-个人网站 </title>
+
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/works.css"/>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.eventFlow.js"></script>
+
+    <!--ico图标-->
+    <link rel="icon" href="128X128.ico" type="image/x-icon">
+
+    <!--介绍-->
+    <meta name="description" content=" "/>
+
+    <!--热词／关键词-->
+    <meta name="Keywords" content=" "/>
+
+</head>
+
+<body>
+<!--头部开始-->
+<div class="header">
+    <div class="w">
+        <div class="logo"></div>
+        <div class="nav">
+            <ul class="logo_lis">
+                <li><a href="#">HOME </a></li>
+                <li><a href="#">WORK</a></li>
+                <li><a href="./blog/blog-index.html" target="_blank">RESOURCES</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+
+        </div>
+
+        <!--
+
+        <div class="music">
+        <audio controls="controls" autoplay="autoplay" loop>
+        <source src="music/music.ogg">
+        <source src="music/Maroon 5 - Sugar.mp3"> 亲爱的用户,你的浏览器版本太低,无法享受这个页面 的所有功能,建议 进行更新 ^_^ <a href="#">戳我下载</a>
+        </audio>
+        </div>
+
+
+ -->
+
+
+    </div>
+</div>
+<!--头部结束-->
+
+<!--第一部分开始-->
+<div class="banner">
+    <div class="w">
+        <div class="font">
+            <h1>Hi, I am<br/>CH.AMOEVILLE </h1>
+            <link href='https://www.hanyi.studio/WebFonts/C3DB971E-443B-4D37-887D-530EE441EB6B/201706/css/4C4C0DD59DD32731.css'
+                  rel='stylesheet' type='text/css'/>
+            <div class="css4C4C0DD59DD32731">
+                <h3>Designer & code</h3>
+            </div>
+            <p>想的多说的少，是因为在真正的思考。典型的完美理想主义，思维缜密逻辑清晰，很<br/>想安静的涂涂画画，也乐于沉浸视觉的海洋，苦于事务繁杂，好在职业所向，依然可<br/>以追寻前沿之势探讨流行之风。</p>
+        </div>
+        <div class="btn"><a href="#">Learn More</a></div>
+        <div class="pic_bg"></div>
+
+    </div>
+</div>
+<!--第一部分结束-->
+
+<!--第二部分work开始-->
+<div class="work ">
+    <div class="w">
+        <h1>what I do</h1>
+        <div class="work_skill">
+            <div class="skill_one">
+                <div class="skill_tittle"></div>
+                <h3>User Interface Designe</h3>
+                <p>很想安静的涂涂画画，也乐于沉浸视觉的海洋，苦于事务繁杂，好在职业所向，依然可以追寻前沿之势探讨流行之风。</p>
+            </div>
+            <div class="skill_two">
+                <div class="skill_tittle"></div>
+                <h3>User Experience</h3>
+                <p> 想的多说的少，是因为在真正的思考。典型的完美理想主义，思维缜密逻辑清晰，善于分析产品的核心需求尊重用户反馈。</p>
+            </div>
+            <div class="skill_three">
+                <div class="skill_tittle"></div>
+                <h3>Web Development</h3>
+                <p>俗话说得好，不会唱歌的厨子不是好司机，
+                    同样不会开发的产品不是好设计，本职工
+                    作之余，也愿意探究一点前端之技。</p>
+            </div>
+        </div>
+        <div class="work_pic">
+            <div class="pic_one"></div>
+            <div class="pic_two"></div>
+            <div class="pic_three"></div>
+            <div class="pic_four"></div>
+            <div class="pic_five"></div>
+            <div class="pic_six"></div>
+        </div>
+    </div>
+</div>
+<!--第二部分work结束-->
+
+
+<!--时间轴  开始-->
+<div class="w_bg">
+<div class="works w">
+
+    <!--<p id="p1">Timetable</p>-->
+    <div class="bottom_btn"></div>
+    <!--时间轴 div开始-->
+    <div class="w1000 tc body">
+        <div class="event_wrap clearfix">
+            <div class="middle_line">
+            </div>
+        </div>
+    </div>
+
+    <!--时间轴 div结束-->
+
+</div>
+</div>
+<!--时间轴————----—————————————————————————————— JS开始-->
+<script>
+    $(function () {
+        var bigEvent = [{
+            'year': 2017,
+            'events': [{
+                'mouths': 14,
+                'times': 'UI/UX Designer <br/>March 2016.05 — Now',
+                'even': ' Projects <br/> Learn treasure 3.0- icon design and interface design Follow the Po 3.0- icon design and interface design Take a look at 2.0- icon design and interface design'
+            }, {
+                'mouths': 4,
+                'times': 'UI/UX Designer <br/>March 2015.01 — 2016',
+                'even': 'Projects<br/> Community cube 1.0 user Edition / property version Community cube official website'
+            }, {
+                'mouths': 10,
+                'times': 'UI/UX Designer <br/>March 2014.04 — 2015.01',
+                'even': ' Projects<br/> Community cube 1.0 user Edition / property version Community cube official website'
+            }]
+        }, {
+            'year': 2015,
+            'events': [{
+                'mouths': 2,
+                'times': 'Interior Designer<br/>March 2013.04 — 2014.03',
+                'even': 'Projects<br/>Drawing of construction drawings Rendering of renderings'
+            }]
+        }];
+        $('.event_wrap').eventFlow({
+            'events': bigEvent
+        });
+    })
+</script>
+<!--时间轴—————————————————————————————————————————— JS结束-->
+<!--联系------------------------------------------------>
+<div class="contact">
+
+
+
+</div>
+
+
+
+<!--联系------------------------------------------------>
+
+
+
+
+
+<!--底部固定——————————————————————————————————————-->
+<div class="bottom_bar"></div>
+<!--底部固定————————————————————————————————————————————————-->
+</body>
+
+</html>

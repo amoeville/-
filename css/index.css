@@ -1,0 +1,279 @@
+/*头部开始*/
+
+.header{
+    height: 70px;
+    background-color: #fff;
+    font: 12px/1.5 Adobe Caslon Pro;
+
+}
+
+
+.logo{
+    width: 76px;
+    height:70px;
+    background: url(../images/logo.png);
+    float: left;
+}
+.logo_lis{
+    float: left;
+    height: 70px;
+    margin-left: 200px;
+}
+.logo_lis li{
+    float: left;
+    margin-right: 50px;
+    height: 70px;
+    line-height: 70px;
+}
+.logo_lis li a{
+    font-size:14px;
+    display: block;
+    height: 70px;
+    color: #999999;
+}
+.logo_lis li a:hover{
+    color: #333;
+
+}
+.music{
+    float: right;
+    margin-right: 10px;
+    padding-top: 16px;
+
+}
+/*头部结束——————————————————————————————————-*/
+
+/*第一部分开始————————————————————————————————*/
+
+.banner{
+    height: 750px;
+    background-color: #fff;
+}
+
+.banner .w{
+    position: relative;
+}
+.banner .font {
+    position: absolute;
+    z-index: 1000;
+}
+
+.banner .font h1{
+    font-family: "Abril Fatface";
+    font-size: 48px;
+    color: #333;
+    padding-top: 80px;
+    line-height: 60px;
+}
+
+.banner .font h3{
+    font-family: "Actor";
+    font-size: 30px;
+    color: #333;
+    margin-top: 18px;
+}
+
+.banner .font p{
+    font-family: "PingFang SC";
+    font-size: 16px;
+    color: #666;
+    margin-top: 18px;
+    line-height: 30px;
+
+}
+.banner .btn a{
+    display: block;
+    width: 160px;
+    height: 40px;
+    background: #e53a40;
+    box-shadow: 0px 7px 16px 0px rgba(9, 7, 7, 0.22);
+    position: absolute;
+    left: 0;
+    top: 545px;
+    width: 160px;
+    height: 50px;
+    z-index: 999;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-family:Karla;
+    font-size: 18px;
+}
+.banner .pic_bg{
+    width: 1155px;
+    height: 476px;
+    background: url(../images/banner.png);
+    position: absolute;
+    right: 0;
+    left: 15px;
+    top:120px;
+}
+
+/*第一部分结束————————————————————————————————————*/
+
+/*第二部分work开始--------------------------------*/
+  .work{
+      background-color: #fff;
+      height: 1300px;
+  }
+.work .w h1{
+    font-size: 40px;
+    text-align: center;
+    /*width: 165px;*/
+    /*height: 46px;*/
+    /*margin: 0 auto;*/
+    /*background-image: url(../images/worktittle.png);*/
+  }
+
+.work_skill{
+    margin-top: 60px;
+
+}
+
+/*---------------------------------------------------------------------------------------------*/
+.skill_one , .skill_two , .skill_three{
+    width: 386px;
+    height: 320px;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    float: left;
+    margin-right:18px;
+    margin-bottom: 20px;
+}
+.skill_three{
+    margin-right:0;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------*/
+.skill_one:hover{  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.22);  }
+.skill_two:hover{  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.22);  }
+.skill_three:hover{  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.22); }
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------*/
+.skill_tittle{  margin: 35px auto; margin-top: 40px;  width: 66px;  height: 66px;  }
+.skill_one .skill_tittle{  background: url(../images/skill_1.png);  }
+.skill_two .skill_tittle{  background: url(../images/skill_2.png);  }
+.skill_three .skill_tittle{  background: url(../images/skill_3.png);  }
+/*---------------------------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------------------------*/
+.skill_one h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333333;
+}
+.skill_two h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333333;
+}
+.skill_three h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333333;
+}
+.skill_one p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #666666;
+}
+.skill_two p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #666666;
+}
+.skill_three p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #666666;
+}
+/*---------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------*/
+
+.work_pic .pic_one{
+    width: 388px;
+    height: 388px;
+    background: url(../images/pic_1.png);
+    float: left;
+    margin-right:18px;
+    margin-bottom: 20px;
+}
+.work_pic .pic_two{
+    width: 388px;
+    height: 388px;
+    background: url(../images/pic_2.png);
+    float: left;
+    margin-right:18px;
+    margin-bottom: 20px;
+}
+
+
+.work_pic .pic_three{
+    width: 388px;
+    height: 388px;
+    background: url(../images/pic_33.png);
+    float: left;
+    margin-right:0;
+    margin-bottom: 20px;
+}
+.work_pic .pic_four{
+    width: 388px;
+    height: 388px;
+    background: url(../images/pic_4.gif) center no-repeat;
+    background-color: #01e6fe;
+    float: left;
+    margin-right:18px;
+    margin-bottom: 20px;
+}
+.work_pic .pic_five{
+    width: 388px;
+    height: 388px;
+    background: url(../images/pic_5.gif) center 20px;
+    float: left;
+    margin-right:18px;
+    margin-bottom: 20px;
+}
+.work_pic .pic_six{
+    width: 388px;
+    height: 388px;
+    background: url(../images/pic_1.png);
+    float: left;
+    margin-right:0;
+    margin-bottom: 20px;
+}
+.w_bg{
+    height: 825px;
+    background: url(../images/时间轴.png) center;
+    width: 100%;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+/*第二部分work结束--------------------------------*/
+
+
+/*<!--联系------------------------------------------------>*/
+.contact{
+    height: 1000px;
+    /*background-color: honeydew;*/
+    background: url(../images/content.png) center;
+}
+
+/*<!--联系------------------------------------------------>*/
